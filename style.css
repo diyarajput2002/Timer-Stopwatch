@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+    background-color: #f2f2f2;
+  }
+  
+  h1 {
+    margin-bottom: 40px;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+  }
+  
+  .timer,
+  .stopwatch {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .timer h2,
+  .stopwatch h2 {
+    margin-top: 0;
+    color: #333333;
+  }
+  
+  .display {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333333;
+  }
+  
+  .controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    background-color: #4caf50;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .controls button:hover {
+    background-color: #45a049;
+  }
+  
+  .controls button:active {
+    background-color: #3e8e41;
+  }
+
